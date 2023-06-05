@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
